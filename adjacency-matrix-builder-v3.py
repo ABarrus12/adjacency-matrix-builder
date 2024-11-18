@@ -52,5 +52,5 @@ def adjacency_matrix(pairs_set, new_file):
       # Credit: this line of code came from ChatGPT
       new_file.write(" ".join(map(str, row_vector)) + "\n")
 
-sample_pairs = get_pairs("Social network simulations/random_pairs.txt")
+sample_pairs = get_pairs("Social network simulations/random-pairs.txt")
 adjacency_matrix(sample_pairs, "matrix.txt")
