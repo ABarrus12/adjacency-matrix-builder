@@ -20,7 +20,7 @@ def get_pairs(data_file):
   global num_nodes
   num_nodes = len(identifiers)
   
-  # returns the set of pairs
+  # returns the list of pairs
   return (pairs)
 
 # constructs an adjacency matrix for the pairs of nodes
